@@ -1,0 +1,30 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 123, 101);
+  }
+  .rating-container {
+    text-align: center;
+    color: white; 
+  }
+  
+  .stars {
+    display: flex;
+  }
+  
+  .star {
+    cursor: pointer;
+    font-size: 2rem;
+    color: white;
+    margin: 0 5px; 
+  }
+  
+  .star:hover,
+  .star.active {
+    color: yellow;
+  }
+  
+  
